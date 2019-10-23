@@ -1,0 +1,251 @@
+@import url(menu.css);
+
+
+
+/*Header*/
+
+.siteheader{
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 100;
+
+  background-color: #E1E3E6;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+
+}
+
+
+.fondo-portada{
+  background-image: url(../FONDO_JOINSPORTS2.jpg);
+  background-position: center ;
+  background-size: cover ;
+
+  height: 99vh;
+  min-height: 600px;
+}
+
+
+.barra{
+
+  display: flex;
+  justify-content: space-between;
+  padding-top: 5px;
+  padding-left: 10px;
+
+}
+
+.barra h5:first-of-type{
+  margin-top: 2px;
+  margin-left: 20px;
+  font-family: 'Squada One';
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+
+}
+
+/*Navegacion*/
+.navegacion a {
+  color: rgba(0,0,0,1);
+  text-decoration: none;
+  font-size: 18px;
+  margin-right: 20px;
+}
+
+
+.
+
+
+.navegacion a:hover {
+  margin-top: 1px;
+  /*background-color: #71B100;*/
+  color: #3E7577;
+
+}
+
+
+.main{
+  background-image: url(../mis_deportes_fondo.jpg);
+  background-position:bottom ;
+  background-size: cover ;
+  height: 99vh;
+  min-height: 600px;
+
+
+}
+
+
+#contenedor_main{
+  background-color: white;
+  opacity: 0.8;
+  margin-top: 4%;
+  padding-bottom: 5%;
+  padding-top: 1%;
+  padding-left: 3%;
+margin-left: 25%;
+margin-right: 15%;
+height: 55%;
+}
+
+
+
+#title_main{
+
+  font-size: 15px;
+  padding-left: 43%;
+  color: white;
+}
+
+.contenedor_titulo h1{
+font-weight: bolder;
+font-size: 38px;
+}
+
+.evento{
+
+border: 1px solid #343F4B;
+
+}
+
+.evento p{
+  position: relative;
+  z-index: 100;
+font-size: 22px;
+color:black;
+padding-top: 0px;
+padding-bottom: 0px;
+
+}
+
+.evento p:nth-of-type(1){
+
+  font-weight: bolder;
+}
+
+.evento p:nth-of-type(2){
+font-size: 25px;
+
+}
+
+.evento p:nth-of-type(3){
+color: #343F4B;
+  font-weight: lighter;
+}
+
+.evento p:nth-of-type(4){
+color: #343F4B;
+margin-bottom: 5px;
+}
+
+#evento_abajo{
+  display: flex;
+justify-content:flex-start;
+margin-left: 2.5%;
+}
+
+#evento_abajo p{
+padding-left: 1px;
+margin-top: 15px;
+
+}
+
+#evento_abajo a{
+  font-size: 27px;
+  height: 60px;
+  width: 400px;
+color:white;
+text-decoration: none;
+font-weight: bolder;
+background-color: #343F4B;
+padding-top: 13px;
+text-align: center;
+border-radius: 8px;
+opacity: 0.8;
+margin-left: 35%;
+margin-right: 30px;
+
+}
+
+
+/* LO DEL FOOTER */
+.footer{
+/*
+  column-count: 3;
+  column-gap: 10px; /* ancho de columnas
+  column-rule: 5px
+
+  */
+  display: flex;
+  justify-content:space-around;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  clear: both;
+  background-color: #343F4B;
+  height: 25vh;
+  width: auto;
+  padding-left: 10%;
+  padding-top: 2%;
+  padding-right: 10%;
+
+}
+
+#android{
+  margin-top: 12%;
+  margin-left: 10%;
+
+
+}
+
+#ios{
+  margin-left: 10%;
+  margin-top: 40px;
+}
+
+.menu_footer1 a{
+display: block;
+  color: white;
+  margin-left: 10%;
+  text-decoration: none;
+  float: left;
+}
+
+.menu_footer2 a{
+
+  margin-left: 250px;
+  color: white;
+
+  text-decoration: none;
+
+}
+
+.menu_footer1 a:last-of-type{
+  float: left;
+  margin-bottom: 50px;
+}
+
+.menu_footer2 a:last-of-type{
+  float: left;
+  margin-right:  10%;
+}
+
+.noticias{
+  margin-top: 10px;
+  float: left;
+}
+.footer2{
+  display: flex;
+}
+
+.noticias button:first-of-type{
+  font-family: 'Roboto', sans-serif;
+float: left;
+background-color: #E1E3E6;
+color: black;
+margin-right: 5px;
+margin-top: 15px;
+}

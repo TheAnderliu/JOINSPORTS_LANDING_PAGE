@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>JOINSPORTS</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+    <form action="index.html" method="post">
+      <table>
+        <tr>
+          <td>Nombre</td>
+          <td><input type="text" name="txtNombre"></td>
+        </tr>
+        <tr>
+          <td>Apellido Paterno</td>
+          <td><input type="text" name="txtApePat"></td>
+        </tr>
+        <tr>
+          <td>Sede de Cine que frecuenta</td>
+          <td>
+            <select name="cboSalaCine">
+              <option>Cinemark Jockey Plaza</option>
+              <option>Cinemark Primavera </option>
+              <option selected>Cinemark UPC Plaza</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>Masculino</td>
+          <td><input type="radio" name="genero" value="M"></td>
+        </tr>
+        <tr>
+          <td>Femenino</td>
+          <td><input type="radio" name="genero" value="F"></td>
+        </tr>
+        <tr>
+          <td>Otro</td>
+          <td><input type="radio" name="genero" value="I"></td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            Tipos de Peliculas que le gusta
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td><input type="checkbox" name="chkCategoria1" value="T">Terror</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td><input type="checkbox" name="chkCategoria2" value="A"></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td><input type="checkbox" name="chkCategoria3" value="C"></td>
+        </tr>
+        <tr></tr>
+      </table>
+      <input type="submit" name="Registrar Opinion" value="Registrar Opinion">
+    </form>
+  </body>
+</html>

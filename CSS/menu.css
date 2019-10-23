@@ -1,0 +1,74 @@
+
+#menu_bar{
+	display: none;
+	margin: 55px 0 0 15px;
+}
+
+.main label{
+	float: left;
+	font-size: 25px;
+	margin: 55px 0 0 15px;
+	cursor: pointer;
+ position: relative;
+ z-index: 100;
+}
+
+.menu {
+	position: absolute;
+	top: 40px;
+	left: 0;
+	width: 20%;
+	height: 94.8vh;
+	background: rgba(51,51,51,0.9);
+	transition: all 0.3s;
+	transform: translateX(-100%);
+	font-style: "Roboto";
+	font-size: 20px;
+}
+
+.menu a:first-of-type{
+margin-top: 85%;
+
+}
+
+#icon_perfil{
+	margin-top: 1px;
+margin-left: 4%;
+width: 200px;
+height: 200px;
+background-image: url(../android_profile.png);
+background-position: center;
+border-radius: 100%;
+
+}
+
+.main p{
+font-style: "Roboto";
+font-size: 30px;
+padding-top: 4%;
+padding-left: 4%;
+position: relative;
+z-index: 100;
+color: white;
+}
+
+
+
+
+
+.menu a{
+	display: block;
+	color: #fff;
+	height: 40px;
+	text-decoration: none;
+	padding: 45px;
+	border-bottom: 1px solid rgba(255,255,255,0.3);
+}
+
+.menu a:hover {
+	background: rgba(255,255,255,255,0.3);
+}
+
+#menu_bar:checked ~ .menu{
+	transform: translateX(0%);
+}
